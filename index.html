@@ -10,8 +10,11 @@
 
 <body>
     <div class="page" id="page">
-        <div class="card-wrapper">
-            <img id="callingCardImage" src="" alt="Digital Calling Card">
+        <div class="card-wrapper" id="cardWrapper">
+
+            <div class="card-frame">
+                <img id="callingCardImage" src="" alt="Digital Calling Card" onload="checkOrientation(this)">
+            </div>
 
             <div class="btn-stack">
                 <button id="saveContactBtn">

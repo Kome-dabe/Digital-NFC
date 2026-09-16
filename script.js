@@ -23,23 +23,28 @@ if (!person) {
     img.alt = `${person.firstName} ${person.lastName} calling card`;
 
     /* ---------- Download the actual designed card image ---------- */
-    downloadBtn.addEventListener('click', async () => {
-        try {
-            const response = await fetch(person.cardImage);
-            const blob = await response.blob();
-            const url = window.URL.createObjectURL(blob);
-            const link = document.createElement('a');
-            link.href = url;
-            link.download = `calling-card-${cardId}.png`;
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
-            window.URL.revokeObjectURL(url);
-        } catch (error) {
-            console.error('Download failed:', error);
-            setStatus("Couldn't download the image — try again.");
-        }
-    });
+   downloadBtn.addEventListener('click', async () => {
+    try {
+        const response = await fetch(person.cardImage);
+        const blob = await response.blob();
+        const url = window.URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.href = url;
+
+        const cleanName = `${person.firstName}-${person.lastName}-Calling-Card`
+            .replace(/[.,]/g, "")
+            .replace(/\s+/g, "-");
+        link.download = `${cleanName}.png`;
+
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        window.URL.revokeObjectURL(url);
+    } catch (error) {
+        console.error('Download failed:', error);
+        setStatus("Couldn't download the image — try again.");
+    }
+});
 
     /* ---------- Convert the headshot to a base64 JPEG for the vCard PHOTO field ---------- */
     function getPhotoDataUrl(path) {
@@ -89,7 +94,9 @@ if (!person) {
 
         const link = document.createElement('a');
         link.href = url;
-        link.download = `${person.firstName}-${person.lastName}.vcf`.replace(/\s+/g, "-");
+        link.download = `${person.firstName}-${person.lastName}`
+            .replace(/[.,]/g, "")
+            .replace(/\s+/g, "-") + ".vcf";
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
@@ -101,4 +108,17 @@ if (!person) {
                 : "Contact file ready — tap it to add ✓"
         );
     });
+
+    /* ---------- Detect Image Orientation ---------- */
+    function checkOrientation(imgElement) {
+        const wrapper = document.getElementById('cardWrapper');
+
+        setTimeout(() => {
+            if (imgElement.naturalWidth > imgElement.naturalHeight) {
+                wrapper.classList.add('is-landscape');
+            } else {
+                wrapper.classList.remove('is-landscape');
+            }
+        }, 50);
+    }
 }
