@@ -86,7 +86,7 @@ window.CARDS = {
 
     BBL: {
         cardImage: "img/Calling-Card-BBL.png",
-        profilePhoto: "img/Profile-PCSO.png",
+        profilePhoto: "img/Profile-BBL.png",
         firstName: "Bobby",
         lastName: "Laciste",
         title: "Vice Chairperson for Cybersecurity",
