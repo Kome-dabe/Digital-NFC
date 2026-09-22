@@ -152,5 +152,47 @@ window.CARDS = {
         email: "psupapo@pcso.gov.ph",
         website: "https://www.pcso.gov.ph",
         address: "5F Sun Plaza Bldg., 1507 Shaw Blvd. Cor. Princeton St., Mandaluyong City, 1552"
+    },
+
+    BobbyLaciste: {
+        cardImage: "img/Calling-Card-BobbyLaciste.png",
+        profilePhoto: "img/Profile-BBL.jpg",
+        firstName: "Bobby",
+        lastName: "Laciste",
+        title: "IT Officer",
+        department: "Information Technology Services Department",
+        company: "Philippine Charity Sweepstakes Office",
+        phones: ["+63 917 545 5816"],
+        email: "blaciste@pcso.gov.ph",
+        website: "https://www.pcso.gov.ph",
+        address: "3/F Conservatory Shaw Plaza Bldg., 607 Shaw Blvd., Mandaluyong City, 1552"
+    },
+
+    EdNuguid: {
+        cardImage: "img/Calling-Card-EdNuguid.png",
+        profilePhoto: "img/Profile-EPN.png",
+        firstName: "Edison",
+        lastName: "Nuguid",
+        title: "Sr. Technical Assistant A",
+        department: "Information Technology Services Department",
+        company: "Philippine Charity Sweepstakes Office",
+        phones: ["+63 999 995 6562", "(02) 8846-8862"],
+        email: "edison@pcso.gov.ph",
+        website: "https://www.pcso.gov.ph",
+        address: "3/F Conservatory Shaw Plaza Bldg., 607 Shaw Blvd., Mandaluyong City, 1552"
+    },
+
+    RoseGabion: {
+        cardImage: "img/Calling-Card-RoseGabion.png",
+        profilePhoto: "img/Profile-ARG.jpg",
+        firstName: "April Rose",
+        lastName: "Gabion",
+        title: "Research Analyst",
+        department: "Information Technology Services Department",
+        company: "Philippine Charity Sweepstakes Office",
+        phones: ["+63 992 488 6223"],
+        email: "argabion@pcso.gov.ph",
+        website: "https://www.pcso.gov.ph",
+        address: "3/F Conservatory Shaw Plaza Bldg., 607 Shaw Blvd., Mandaluyong City, 1552"
     }
 };
