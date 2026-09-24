@@ -58,7 +58,7 @@ window.CARDS = {
 
     MOM: {
         cardImage: "img/Calling-Card-MOM.png",
-        profilePhoto: "img/Profile-PCSO.png",
+        profilePhoto: "img/Profile-MOM.png",
         firstName: "Atty. Marissa",
         lastName: "Medrano",
         title: "Vice Chairperson for Legal Affairs",
