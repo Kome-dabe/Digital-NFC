@@ -198,7 +198,7 @@ window.CARDS = {
 
     FrederickMagallon: {
         cardImage: "img/Calling-Card-FrederickMagallon.png",
-        profilePhoto: "img/Profile-FVM.png",
+        profilePhoto: "img/Profile-FVM.jpg",
         firstName: "Frederick",
         lastName: "Magallon",
         title: "Department Manager",
