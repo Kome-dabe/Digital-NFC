@@ -194,5 +194,19 @@ window.CARDS = {
         email: "argabion@pcso.gov.ph",
         website: "https://www.pcso.gov.ph",
         address: "3/F Conservatory Shaw Plaza Bldg., 607 Shaw Blvd., Mandaluyong City, 1552"
+    },
+
+    FrederickMagallon: {
+        cardImage: "img/Calling-Card-FrederickMagallon.png",
+        profilePhoto: "img/Profile-FVM.png",
+        firstName: "Frederick",
+        lastName: "Magallon",
+        title: "Department Manager",
+        department: "Information Technology Services Department",
+        company: "Philippine Charity Sweepstakes Office",
+        phones: ["+63 908 874 3798"],
+        email: "fmagallon@pcso.gov.ph",
+        website: "https://www.pcso.gov.ph",
+        address: "3/F Conservatory Shaw Plaza Bldg., 607 Shaw Blvd., Mandaluyong City, 1552"
     }
 };
