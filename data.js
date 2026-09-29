@@ -44,7 +44,7 @@ window.CARDS = {
 
     OMM: {
         cardImage: "img/Calling-Card-OMM.png",
-        profilePhoto: "img/Profile-PCSO.png",
+        profilePhoto: "img/Profile-OMM.jpg",
         firstName: "Orlando",
         lastName: "Malaca",
         title: "SHIELD Member",
@@ -165,7 +165,7 @@ window.CARDS = {
         phones: ["+63 917 545 5816"],
         email: "blaciste@pcso.gov.ph",
         website: "https://www.pcso.gov.ph",
-        address: "3/F Conservatory Shaw Plaza Bldg., 607 Shaw Blvd., Mandaluyong City, 1552"
+        address: "3/F Conservatory Shaw Plaza Bldg., 605 Shaw Blvd., Mandaluyong City, 1552"
     },
 
     EdNuguid: {
@@ -179,7 +179,7 @@ window.CARDS = {
         phones: ["+63 999 995 6562", "(02) 8846-8862"],
         email: "edison@pcso.gov.ph",
         website: "https://www.pcso.gov.ph",
-        address: "3/F Conservatory Shaw Plaza Bldg., 607 Shaw Blvd., Mandaluyong City, 1552"
+        address: "3/F Conservatory Shaw Plaza Bldg., 605 Shaw Blvd., Mandaluyong City, 1552"
     },
 
     RoseGabion: {
@@ -193,7 +193,7 @@ window.CARDS = {
         phones: ["+63 992 488 6223"],
         email: "argabion@pcso.gov.ph",
         website: "https://www.pcso.gov.ph",
-        address: "3/F Conservatory Shaw Plaza Bldg., 607 Shaw Blvd., Mandaluyong City, 1552"
+        address: "3/F Conservatory Shaw Plaza Bldg., 605 Shaw Blvd., Mandaluyong City, 1552"
     },
 
     FrederickMagallon: {
@@ -207,6 +207,20 @@ window.CARDS = {
         phones: ["+63 908 874 3798"],
         email: "fmagallon@pcso.gov.ph",
         website: "https://www.pcso.gov.ph",
-        address: "3/F Conservatory Shaw Plaza Bldg., 607 Shaw Blvd., Mandaluyong City, 1552"
+        address: "3/F Conservatory Shaw Plaza Bldg., 605 Shaw Blvd., Mandaluyong City, 1552"
+    },
+
+    OrlyMalaca: {
+        cardImage: "img/Calling-Card-OrlyMalaca.png",
+        profilePhoto: "img/Profile-OMM.jpg",
+        firstName: "Orlando",
+        lastName: "Malaca",
+        title: "Department Manager",
+        department: "Charity Assistance Department",
+        company: "Philippine Charity Sweepstakes Office",
+        phones: ["+63 988 591 8256"],
+        email: "orly@pcso.gov.ph",
+        website: "https://www.pcso.gov.ph",
+        address: "3/F Conservatory Shaw Plaza Bldg., 605 Shaw Blvd., Mandaluyong City, 1552"
     }
 };
